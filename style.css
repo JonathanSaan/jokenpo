@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #165bd6;
+  color: white;
+}
+
+div#container {
+  margin: auto;
+}
+
+div#container div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+div#computer h1{
+  margin: 10px 0 50px 0;
+}
+
+div#user{
+  flex-direction: column;
+  margin: 0 0 50px 0;
+}
+
+h1 {
+  font-size: 3vh;
+}
+
+button{
+  background: none;
+  border: none;
+  height: 10vh;
+  margin: 0 20px 0 0;
+}
+
+img {
+  border-radius: 50%;
+  height: 8vh;
+}
+
+img:hover{
+  height: 12vh;
+  transition: .3s ease;
+}
+
+div#round, div#winner, div#winner_computer, div#winner_user{
+  flex-direction: column;
+}
+
+div#winner_computer{
+  padding: 0 20px 0;
+}
+
+h2{
+  font-size: 2.5vh;
+}
