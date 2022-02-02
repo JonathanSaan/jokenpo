@@ -20,11 +20,7 @@ div#container div{
   margin: 10px 0;
 }
 
-div#computer h1{
-  margin: 10px 0 50px 0;
-}
-
-div#user{
+div#user, div#computer{
   flex-direction: column;
   margin: 0 0 50px 0;
 }
@@ -45,17 +41,17 @@ img {
   height: 8vh;
 }
 
-img:hover{
+button img:hover{
   height: 12vh;
-  transition: .3s ease;
+  transition: .2s ease;
 }
 
 div#round, div#winner, div#winner_computer, div#winner_user{
   flex-direction: column;
 }
 
-div#winner_computer{
-  padding: 0 20px 0;
+div#winner_computer, div#winner_user{
+  width: 25vw;
 }
 
 h2{
