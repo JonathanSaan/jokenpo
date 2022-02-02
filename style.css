@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 
-body{
+body {
   background-color: #165bd6;
   color: white;
 }
@@ -13,23 +13,26 @@ div#container {
   margin: auto;
 }
 
-div#container div{
+div#container div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px 0;
 }
 
-div#user, div#computer{
+div#computer h1 {
+  margin: 0 0 10px 0;
+}
+
+div#user, div#computer, div#round, div#winner, div#winner_computer, div#winner_user {
   flex-direction: column;
-  margin: 0 0 50px 0;
 }
 
 h1 {
   font-size: 3vh;
 }
 
-button{
+button {
   background: none;
   border: none;
   height: 10vh;
@@ -41,19 +44,15 @@ img {
   height: 8vh;
 }
 
-button img:hover{
+button img:hover {
   height: 12vh;
   transition: .2s ease;
 }
 
-div#round, div#winner, div#winner_computer, div#winner_user{
-  flex-direction: column;
-}
-
-div#winner_computer, div#winner_user{
+div#winner_computer, div#winner_user {
   width: 25vw;
 }
 
-h2{
+h2 {
   font-size: 2.5vh;
 }
