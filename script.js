@@ -31,7 +31,6 @@ function Computer() {
 };
 
 
-
 pedra.addEventListener('click', function() {
   Computer()
   if (sorteio == 0) {
@@ -65,7 +64,6 @@ papel.addEventListener('click', function() {
     victory_pc.innerHTML = `${vencendor_computer += 1}`;
     alert("Computer's Victory");
   }
-
 });
 
 tesoura.addEventListener('click', function() {
@@ -83,5 +81,4 @@ tesoura.addEventListener('click', function() {
   if (sorteio == 2) {
     alert('A tie!');
   }
-
 });
