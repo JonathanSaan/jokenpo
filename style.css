@@ -53,6 +53,6 @@ div#winner_computer, div#winner_user {
   width: 25vw;
 }
 
-h2 {
+h2, p {
   font-size: 2.5vh;
 }
